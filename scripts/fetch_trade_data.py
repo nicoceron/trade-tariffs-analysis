@@ -30,9 +30,9 @@ POST_TARIFF_END = '2023-12-31'   # Most recent available data before 2025 tariff
 # A significant broad tariff implementation in 2025 was the Universal U.S. Reciprocal Tariff.
 NEW_2025_TARIFF_START_APPROX = '2025-04-05'  # Start of Universal 10% Reciprocal Tariff
 # There isn't a defined 'end' date for this new tariff period as of mid-May 2025; changes are ongoing.
-# For example, a 90-day US-China tariff reduction began around May 14, 2025.
-NEW_2025_TARIFF_END_ONGOING = '2025-05-14'  # For analysis purposes, using the US-China agreement date
-MOST_RECENT_DATA_CONTEXT_2025 = '2025-05-14'  # Reflecting the start of the US-China 90-day agreement
+# For example, a 90-day US-China tariff reduction began around May 13, 2025.
+NEW_2025_TARIFF_END_ONGOING = '2025-05-13'  # For analysis purposes, using the US-China agreement date
+MOST_RECENT_DATA_CONTEXT_2025 = '2025-05-13'  # Reflecting the start of the US-China 90-day agreement
 
 # Create data directory if it doesn't exist
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')

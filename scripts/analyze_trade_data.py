@@ -28,8 +28,8 @@ POST_TARIFF_END = '2023-12-31'
 
 # 2025 Tariff Developments
 NEW_2025_TARIFF_START_APPROX = '2025-04-05'  # Start of Universal 10% Reciprocal Tariff
-NEW_2025_TARIFF_END_ONGOING = '2025-05-14'  # For analysis purposes, using the US-China agreement date
-MOST_RECENT_DATA_CONTEXT_2025 = '2025-05-14'  # Reflecting the start of the US-China 90-day agreement
+NEW_2025_TARIFF_END_ONGOING = '2025-05-13'  # For analysis purposes, using the US-China agreement date
+MOST_RECENT_DATA_CONTEXT_2025 = '2025-05-13'  # Reflecting the start of the US-China 90-day agreement
 
 # Create output directories if they don't exist
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
